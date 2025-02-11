@@ -40,7 +40,6 @@ function App() {
             <div className="partner-data">
               <p className="card_heading">{partner.org_type} | {partner.name}</p>
               <div className="partner-data-info">
-                {/* <p>ИНН: {partner.inn}</p> */}
                 <p>{partner.director}</p>
                 <p>{partner.phone}</p>
                 <p>Рейтинг: {partner.rating}</p>

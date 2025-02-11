@@ -24,7 +24,7 @@ export default function CreatePartner() {
     }
     await ipcr.invoke('createPartner', partner);
     setPartner(partner)
-    document.querySelector('form').reset()
+    // document.querySelector('form').reset()
   }
 
 

@@ -35,7 +35,7 @@ async function getOrgTypes() {
 
 async function createPartner(_event, partner) {
   const { name, director, email, phone, inn, address, rating, orgTypeId } = partner;
-  // console.log(partner)
+   console.log(partner)
   try {
     await global.dbclient.query(`
       INSERT into partners (name, director, email, phone, inn, address, rating, org_type_id)
