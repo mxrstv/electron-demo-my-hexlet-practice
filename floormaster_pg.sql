@@ -28,7 +28,7 @@ INSERT INTO partners (org_type_id, id, name, director, email, phone, address, in
 	(4, 4, 'Ремонт и отделка','Воробьева Екатерина Валерьевна', 'ekaterina.vorobeva@ml.ru', '444 222 33 11', '143960, Московская область, город Реутов, ул. Свободы, 51', '1111520857', 5),
 	(1, 5, 'МонтажПро','Степанов Степан Сергеевич', 'stepanov@stepan.ru', '912 888 33 33', '309500, Белгородская область, город Старый Оскол, ул. Рабочая, 122', '5552431140', 10);
 
-setval('partners_id_seq', 5);
+select setval('partners_id_seq', 5);
 
 CREATE TABLE product_types (
 	id serial PRIMARY KEY,
